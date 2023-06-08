@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.site-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  list-style-type: none;
+  gap: 1rem;
+}
