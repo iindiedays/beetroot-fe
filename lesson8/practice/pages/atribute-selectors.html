@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>CSS Atribute Selectors</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/atribute-selectors.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Atribute Selectors</h1>
+        <a href="../index.html">Go to home page</a>
+    </div>
+
+    <!-- Atribute selector -->
+    <section class="container">
+        <p data>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum molestias minima ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute value selector -->
+    <section class="container">
+        <p data-color="blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute ~ selector  -->
+    <section class="container">
+        <p data-description="This is green text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute | selector  -->
+    <section class="container">
+        <p data-position="top">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p data-position="top-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p data-position="top-custom">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute ^ selector  -->
+    <section class="container">
+        <p class="text text-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p class="m-text text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute $ selector  -->
+    <section class="container">
+        <p class="text text-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p class="text-m text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitatimonem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute * selector  -->
+    <section class="container">
+        <p class="large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitatimonem deleniti commodi odio!</p>
+    </section>
+
+    <!-- Atribute value case-insensetive selector  -->
+    <section class="container">
+        <p class="SMall">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitationem deleniti commodi odio!</p>
+        <p class="Small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus
+            similique, quas dolorum eum voluptates officiis placeat laborum asperiores, aliquam sunt quia illo
+            exercitatimonem deleniti commodi odio!</p>
+        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatum
+            molestias minima
+            ducimus similique, quas dolorum eum voluptates
+            officiis placeat laborum asperiores, aliquam sunt
+            quia illo exercitatimonem deleniti commodi odio!</p>
+    </section>
+</body>
+
+</html>

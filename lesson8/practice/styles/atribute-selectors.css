@@ -1,0 +1,39 @@
+/* Atribute selector  */
+[data] {
+    color: purple;
+}
+
+/* Atribute value selector */
+[data-color="blue"] {
+    color: blue;
+}
+
+/* Atribute ~ selector */
+[data-description~="green"] {
+    color: green;
+}
+
+/* Atribute | selector */
+[data-position|="top"] {
+    color: brown;
+}
+
+/* Atribute ^ selector */
+[class^="text"] {
+    color: teal;
+}
+
+/* Atribute $ selector */
+[class$="text"] {
+    color: blueviolet;
+}
+
+/* Atribute * selector */
+[class*="la"] {
+    color: darkgoldenrod;
+}
+
+/* Atribute value case-insensetive selector */
+[class*="sm" i] {
+    color: red;
+}

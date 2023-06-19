@@ -1,0 +1,65 @@
+/* :link */
+#navigation a:link:visited {
+    color: orange;
+}
+
+/* :visited */
+#navigation a:visited {
+    color: red;
+}
+
+/* :active */
+#navigation a:active {
+    color: green;
+}
+
+/* :hover */
+#hover-example:hover {
+    background-color: lightcoral;
+}
+
+/* :not */
+#not-example>p:not(.class1) {
+    color: orange;
+}
+
+/* :nth-child(n) */
+#nth-child-example>:nth-child(1) {
+    color: purple;
+}
+
+/* :required */
+#required-exampl>form>input>:required {
+    background-color: blue;
+}
+
+/* :checked */
+#checked-example>form>input>:checked {
+    width: 100px;
+    height: 100px
+}
+
+/* :disabled */
+#disabled-example>form>*:disabled {
+    background-color: lightblue;
+}
+
+/* :enabled */
+#enabled-example>form>*:enabled {
+    background-color: yellow;
+}
+
+/* :valid */
+#valid-example>form>input>:valid {
+    border: 2px solid green;
+}
+
+/* :invalid */
+#invalid-example>form>input>:invalid {
+    border: 2px solid red;
+}
+
+/* :focus */
+#focus-example>form>*:focus {
+    background-color: lightcoral;
+}
