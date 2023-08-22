@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Inclusion Examples</title>
+</head>
+
+<body>
+
+    <!-- Включення JavaScript безпосередньо в HTML (inline) -->
+    <script>
+        console.log('Inline JavaScript');
+    </script>
+
+    <!-- Зовнішній JavaScript-файл, розташований на сервері -->
+    <script src="external-script.js"></script>
+
+    <!-- Зовнішній JavaScript-файл, розташований на іншому домені (з CORS) -->
+    <script src="https://example.com/external-script.js"></script>
+
+    <!-- Зовнішній JavaScript-файл, розташований на локальному сервері (localhost) -->
+    <script src="http://localhost:3000/external-script.js"></script>
+
+    <!-- Включення JavaScript через атрибут "onload" у тегу body -->
+
+    <body onload="console.log('JavaScript loaded using onload attribute')">
+        <h1>JS Inclusion Examples</h1>
+    </body>
+
+    <!-- Включення JavaScript за допомогою сучасного атрибуту "defer" -->
+    <script defer src="deferred-script.js"></script>
+
+    <!-- Включення JavaScript за допомогою атрибуту "async" -->
+    <script async src="async-script.js"></script>
+
+</body>
+
+</html>
